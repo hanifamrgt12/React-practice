@@ -1,0 +1,26 @@
+.calc{
+    width: 320px;
+    margin: 100px auto;
+}
+#answer{
+   background-color: rgb(193, 231, 231); 
+   padding: 10px;
+   font-size: 35px;
+   width: 295px;
+   height: 50px;
+   text-align: right;
+   border-radius: 10px;
+   border: 3px solid rgb(193, 231, 231);
+   margin-bottom: 5px;
+}
+.button{
+    background-color: rgb(176, 226, 241);
+    height: 70px;
+    width:  70px;
+   border: 2px solid rgb(111, 218, 250);
+   font-size: 20px;
+   /* float: left; */
+}
+.button1{
+    width: 140px;
+}
