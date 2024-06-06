@@ -1,3 +1,4 @@
+import { Pokemon } from './ApiConcept/Pokemon';
 import './App.css';
 import Calculator from './Calculator/Calculator';
 import Concept from './Concept';
@@ -8,9 +9,10 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path='/' element={<Calculator/>}/>
+      <Route path='/' element={<Pokemon/>}/>
       <Route path='/formpage' element={<FormPage/>}/>
       <Route path='/concept' element={<Concept/>}/>
+      <Route path='/calculator' element={<Calculator/>}/>
 
     </Routes>
     </>
